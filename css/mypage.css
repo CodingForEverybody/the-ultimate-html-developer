@@ -1,0 +1,16 @@
+body {
+    background-color: #f5f5f5;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+input, button {
+    width: 80%;
+    border: 1px solid #555;
+    padding: 5px;
+}
+.logo {
+    color: blue;
+    font-size: 30px;
+}

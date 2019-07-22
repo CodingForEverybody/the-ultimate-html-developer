@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+h1 {
+    background-color: white;
+    color: red;
+} 
+.font-red {
+    color: red;
+}
+#unique {
+    border: 5px solid black;
+}
+.bg-blue { background-color: blue; }
+.bg-yellow { background-color: yellow; }

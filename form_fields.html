@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Input Fields</title>
+</head>
+<body>
+    <!-- 
+    GET method is 100% insecure 
+    POST method does not show variables in the URL bar 
+    -->
+    <form method="GET" action="div.html">
+
+        <div>
+            <label for="firstname">Input: Text</label>
+            <input required="required" type="text" id="firstname" name="firstname">
+        </div>
+        <div>
+            <label for="checkbox_field">Checkbox</label>
+            <input required="required" type="checkbox" value="1" name="checkbox">
+        </div>
+        <div>
+            <label>Radio buttons</label>
+            <input required="required" type="radio" name="radio_test" value="1"> 1
+            <input required="required" type="radio" name="radio_test" value="2"> 2
+            <input required="required" type="radio" name="radio_test" value="3"> 3
+        </div>
+        <div>
+            <label for="">Date</label>
+            <input required="required" type="date" name="date">
+        </div>
+        <div>
+            Email
+            <input required="required" type="email" name="email">
+        </div>
+        <div>
+            Hidden
+            <input required="required" type="hidden" name="hidden" value="is_hidden">
+        </div>
+        <div>
+            Number
+            <input required="required" type="number" name="number" step="0.5" max="50" min="0">
+        </div>
+        <div>
+            Password:
+            <input required="required" type="password" name="password" placeholder="Ghost text">
+        </div>
+        <div>
+            URL
+            <input required="required" type="url" name="url" value="https://codingforeverybody.com">
+        </div>
+        <div>
+            File Upload
+            <input required="required" type="file" name="file">
+        </div>
+        <div>
+            <input required="required" type="submit" value="Custom Text For A Button" name="submit">
+        </div>
+
+
+    </form>
+
+</body>
+</html>

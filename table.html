@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables</title>
+    </head>
+    <body>
+        
+        <table border="1" width="100%">
+            <tr>
+                <th>Color</th>
+                <th>Subcolor</th>
+                <th>Hex value</th>
+                <th>RGB value</th>
+            </tr>
+            <tr>
+                <td rowspan="3" bgcolor="blue">Blue</td>
+                <td>Baby Blue</td>
+                <td>#unknown</td>
+                <td>rgba(0,0,0)</td>
+            </tr>
+            <tr>
+                <td>Navy Blue</td>
+                <td>#unknown</td>
+                <td>rgba(0,0,0)</td>
+            </tr>            
+            <tr>
+                <td>Ocean Blue</td>
+                <td>#unknown</td>
+                <td>rgba(0,0,0)</td>
+            </tr>            
+        </table>
+
+        <hr>
+
+        <table border="1" width="100%">
+            <thead>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                    <th>Column 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">Row 1 Cell #1</td>    
+                    <td>Row 1 Cell #3</td>    
+                    <td>Row 1 Cell #4</td>    
+                </tr>
+                <tr>
+                    <td>Row 2 Cell #1</td>    
+                    <td>Row 2 Cell #2</td>    
+                    <td colspan="2">Row 2 Cell #3</td>    
+                </tr>    
+                <tr>
+                    <td rowspan="2" colspan="2">Row 3 Cell #1</td>    
+                    <td>Row 3 Cell #3</td>    
+                    <td>Row 3 Cell #4</td> 
+                </tr>  
+                <tr>
+                    <td>Row 4 Cell #3</td>    
+                    <td>Row 4 Cell #4</td> 
+                </tr>                              
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Footer Title 1</th>
+                    <th>Footer Title 2</th>
+                    <th>Footer Title 3</th>
+                    <th>Footer Title 4</th>
+                </tr>            
+            </tfoot>
+        </table>
+
+    </body>
+</html>

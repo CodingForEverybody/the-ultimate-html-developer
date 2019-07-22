@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Textarea</title>
+</head>
+<body>
+    <!-- 
+    GET method is 100% insecure 
+    POST method does not show variables in the URL bar 
+    -->
+    <form method="GET" action="">
+
+        <label for="t1">
+            Textarea
+        </label>
+        <textarea
+            placeholder="Ghost text" 
+            cols="100"
+            rows="20"
+            required="required"
+            name="textarea"
+            id="t1"
+            class=""
+            minlength="10"
+            maxlength="100"
+            autofocus="autofocus"
+        >Line 1
+
+Line 3</textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
